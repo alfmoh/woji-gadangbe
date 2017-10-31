@@ -1,3 +1,4 @@
+import { PostsService } from './services/posts.service';
 import { RouterModule } from '@angular/router';
 import { environment } from '../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
@@ -8,11 +9,13 @@ import { AngularFireAuthModule } from "angularfire2/auth";
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './core/home/home.component';
+import { SablaiComponent } from './core/sablai/sablai.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    SablaiComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +26,7 @@ import { HomeComponent } from './core/home/home.component';
     AngularFireDatabaseModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [PostsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

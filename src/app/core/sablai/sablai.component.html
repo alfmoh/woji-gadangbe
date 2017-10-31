@@ -1,0 +1,18 @@
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Gbɛi</th>
+      <th scope="col">Nuu/Yoo</th>
+      <th scope="col">Sabla</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of sablai$ | async; let i = index" >
+      <th scope="row">{{i+1}}</th>
+      <td>{{person.name}}</td>
+      <td>{{person.gender}}</td>
+      <td>{{person.sabla}}</td>
+    </tr>
+  </tbody>
+</table>
