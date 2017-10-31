@@ -10,16 +10,19 @@ import { AngularFireAuthModule } from "angularfire2/auth";
 import { AppComponent } from './app.component';
 import { HomeComponent } from './core/home/home.component';
 import { SablaiComponent } from './core/sablai/sablai.component';
+import { SablaiAddEditComponent } from './core/sablai/sablai-add-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SablaiComponent
+    SablaiComponent,
+    SablaiAddEditComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      {path: "sablai-add-edit", component: SablaiAddEditComponent},
       {path: "", component: HomeComponent}
     ]),
     AngularFireModule.initializeApp(environment.firebase),
