@@ -1,3 +1,4 @@
+import { AnalyticsService } from './services/AnalyticsService.service';
 import { DataTableModule } from 'angular-4-data-table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -37,7 +38,7 @@ import { SablaiAddEditComponent } from './core/sablai/sablai-add-edit.component'
     AngularFireDatabaseModule,
     AngularFireAuthModule
   ],
-  providers: [PostsService],
+  providers: [AnalyticsService, PostsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

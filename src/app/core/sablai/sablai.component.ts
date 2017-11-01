@@ -1,3 +1,4 @@
+import { AnalyticsService } from '../../services/AnalyticsService.service';
 import { Subscription } from 'rxjs/Subscription';
 import { DataTableResource } from 'angular-4-data-table';
 import { fadeInAnimation } from './../../other/animations/fade-in.animation';
@@ -21,7 +22,9 @@ tableResource: DataTableResource<Person>;
 items: Person[] = [];
 itemCount: number;
 
-  constructor(private postsService: PostsService) {
+  constructor(
+    private analytics: AnalyticsService,
+    private postsService: PostsService) {
     this.subscription = postsService.getAll()
       .subscribe(persons => {
         this.filteredPersons = this.persons = persons;
@@ -31,6 +34,7 @@ itemCount: number;
    }
 
   ngOnInit() {
+    this.analytics.pageView("/index.html")
   }
 
   private initializeTable(persons: Person[]){
