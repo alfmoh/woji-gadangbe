@@ -1,3 +1,4 @@
+import { DataTableModule } from 'angular-4-data-table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { PostsService } from './services/posts.service';
@@ -25,6 +26,7 @@ import { SablaiAddEditComponent } from './core/sablai/sablai-add-edit.component'
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    DataTableModule,
     RouterModule.forRoot([
       {path: "sabla-add", component: SablaiAddEditComponent},
       {path: "sabla-edit/:id", component: SablaiAddEditComponent},

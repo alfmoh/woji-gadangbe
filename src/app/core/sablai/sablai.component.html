@@ -1,19 +1,36 @@
-<button class="btn btn-secondary" [routerLink]="['/sabla-add']" >Ŋmaa Sabla Hei</button>
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">Gbɛi</th>
-      <th scope="col">Nuu/Yoo</th>
-      <th scope="col">Sabla</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let person of sablai$ | async; let i = index" >
-      <th scope="row">{{i+1}}</th>
-      <td><a [routerLink]="['sabla-edit',person.$key]">{{person.name}}</a></td>
-      <td>{{person.gender}}</td>
-      <td>{{person.sabla}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="row">
+    <div class="col">
+        <button class="btn btn-secondary" [routerLink]="['/sabla-add']" >Ŋmaa Sabla Hei</button>
+    </div>
+    
+    <div class="col col-lg-4 col-lg-offset-4">
+        <p>
+            <input #query
+            (keyup)="filter(query.value)"
+            type="text" class="form-control" placeholder="Tawɔmɔ...">
+          </p>
+    </div>
+</div>
+<data-table [items]="items" [itemCount]="itemCount" (reload)="reloadItems($event)">
+
+  <data-table-column [property]="'name'" [header]="'Gbɛi'" [sortable]="true" [resizable]="true">
+    <ng-template #dataTableCell let-item="item">
+      {{item.name}}
+    </ng-template>
+  </data-table-column>
+  <data-table-column [property]="'gender'" [header]="'Nuu/Yoo'" [sortable]="true" [resizable]="true">
+    <ng-template #dataTableCell let-item="item">
+      {{item.gender}}
+    </ng-template>
+  </data-table-column>
+  <data-table-column [property]="'sabla'" [header]="'Sabla'" [sortable]="true" [resizable]="true" >
+    <ng-template #dataTableCell let-item="item" >
+      {{item.sabla}}
+    </ng-template>
+  </data-table-column>
+  <data-table-column [property]="'$key'">
+    <ng-template #dataTableCell let-item="item">
+      <a [routerLink]="['sabla-edit',item.$key]">Tsakemɔ</a>
+    </ng-template>
+  </data-table-column>
+</data-table>
