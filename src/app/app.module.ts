@@ -1,3 +1,5 @@
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import { PostsService } from './services/posts.service';
 import { RouterModule } from '@angular/router';
 import { environment } from '../environments/environment';
@@ -21,6 +23,8 @@ import { SablaiAddEditComponent } from './core/sablai/sablai-add-edit.component'
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot([
       {path: "sablai-add-edit", component: SablaiAddEditComponent},
       {path: "", component: HomeComponent}

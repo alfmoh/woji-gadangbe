@@ -1,1 +1,56 @@
-<h3>Sablai Add Edit</h3>
+<div class="container side-form col-md-6">
+    <h2>Ŋmaa Sabla Hei</h2>
+    <div class="form-container">
+        <form (ngSubmit)="saveSabla()" #f="ngForm" novalidate>
+            <div class="form-group">
+                <label for="name">Gbɛi</label>
+                <input 
+                required
+                type="text" 
+                id="name" name="name" 
+                class="form-control" 
+                #name="ngModel"                 
+                [(ngModel)]="person.name">
+                <div class="error" *ngIf="name.touched && name.hasError('required')">
+                    Ofainɛ ŋmaa gbɛi
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="gender">Nuu/Yoo</label>
+                <select 
+                required 
+                name="gender" 
+                id="gender" 
+                name="gender" 
+                class="form-control" 
+                #gender="ngModel" 
+                [(ngModel)]="person.gender">
+                    <option value=""></option>
+                    <option value="Nuu">Nuu</option>
+                    <option value="Yoo">Yoo</option>
+                </select>
+                <div class="error" *ngIf="gender.touched && gender.hasError('required')">
+                    Ofainɛ halamɔ ekome
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="sabla">Sabla</label>
+                <input 
+                required 
+                type="text" 
+                id="sabla" 
+                name="sabla" 
+                class="form-control" 
+                #sabla="ngModel"  
+                [(ngModel)]="person.sabla">
+                <div class="error" *ngIf="sabla.touched && sabla.hasError('required')">
+                    Ofainɛ ŋmaa sabla
+                </div>
+            </div>
+            <div class="form-group">
+                <a routerLink="/" class="btn btn-default">Yaa Sɛi</a>
+                <button class="btn btn-primary" [disabled]="f.invalid">Kɛ To</button>
+            </div>
+        </form>
+    </div>
+</div>
