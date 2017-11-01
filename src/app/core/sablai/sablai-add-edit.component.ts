@@ -1,28 +1,36 @@
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { PostsService } from '../../services/posts.service';
 import { slideInOutAnimation } from './../../other/animations/slide-in-out.animation';
 import { Component } from '@angular/core';
 
 @Component({
-    selector :"salai-add-edit",
+    selector: "salai-add-edit",
     templateUrl: "./sablai-add-edit.component.html",
-    styleUrls:["./sablai-add-edit.component.css"],
-    animations:[slideInOutAnimation],
-    host: {"[@slideInOutAnimation]": ""}
+    styleUrls: ["./sablai-add-edit.component.css"],
+    animations: [slideInOutAnimation],
+    host: { "[@slideInOutAnimation]": "" }
 })
 export class SablaiAddEditComponent {
+    title = "Ŋmaa Sabla Hei";
+    personId;
+    person = {
+        name: "",
+        gender: "",
+        sabla: ""
+    }
 
     constructor(private router: Router,
-        private postsService: PostsService){}
+        private route: ActivatedRoute,
+        private postsService: PostsService) {
+        this.personId = this.route.snapshot.params['id'];
+        if (this.personId) {
+            this.title = "Tsakemɔ";
+            this.postsService.getById(this.personId).subscribe(person => this.person = person);
+        }
+    }
 
-person ={
-    name:"",
-    gender: "",
-    sabla: ""
-}
-
-saveSabla(){
-this.postsService.create(this.person);
-this.router.navigate(["/"])
-}
+    saveSabla() {
+        this.postsService.create(this.person,this.personId);
+        this.router.navigate(["/"])
+    }
 }
