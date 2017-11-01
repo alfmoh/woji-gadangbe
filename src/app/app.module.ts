@@ -28,7 +28,8 @@ import { SablaiAddEditComponent } from './core/sablai/sablai-add-edit.component'
     RouterModule.forRoot([
       {path: "sabla-add", component: SablaiAddEditComponent},
       {path: "sabla-edit/:id", component: SablaiAddEditComponent},
-      {path: "", component: HomeComponent}
+      {path: "", component: HomeComponent},
+      {path: "**", redirectTo: "/"}
     ]),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
