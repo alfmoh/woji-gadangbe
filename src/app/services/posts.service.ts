@@ -10,4 +10,8 @@ export class PostsService {
     return this.db.list("/sabla");
   }
 
+  create(person){
+    this.db.list("/sabla").push(person);
+  }
+
 }

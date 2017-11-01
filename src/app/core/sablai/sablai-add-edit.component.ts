@@ -1,3 +1,5 @@
+import { Router } from '@angular/router';
+import { PostsService } from '../../services/posts.service';
 import { slideInOutAnimation } from './../../other/animations/slide-in-out.animation';
 import { Component } from '@angular/core';
 
@@ -9,6 +11,10 @@ import { Component } from '@angular/core';
     host: {"[@slideInOutAnimation]": ""}
 })
 export class SablaiAddEditComponent {
+
+    constructor(private router: Router,
+        private postsService: PostsService){}
+
 person ={
     name:"",
     gender: "",
@@ -16,6 +22,7 @@ person ={
 }
 
 saveSabla(){
-console.log(this.person)
+this.postsService.create(this.person);
+this.router.navigate(["/"])
 }
 }
