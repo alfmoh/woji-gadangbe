@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
 })
 export class SablaiAddEditComponent {
     title = "Ŋmaa Sabla Hei";
+    hide = false;
     personId;
     person = {
         name: "",
@@ -31,6 +32,9 @@ export class SablaiAddEditComponent {
 
     saveSabla() {
         this.postsService.create(this.person,this.personId);
-        this.router.navigate(["/"])
+        this.hide = false;
+        setTimeout(()=>{
+            this.router.navigate(["/"])
+        },1500)
     }
 }

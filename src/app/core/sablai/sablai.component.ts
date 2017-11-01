@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'sablai',
   templateUrl: './sablai.component.html',
   styleUrls: ['./sablai.component.css'],
+  // styles:[require("animate.css")],
   animations: [fadeInAnimation],
   host: {"[@fadeInAnimation]":""}
 })
