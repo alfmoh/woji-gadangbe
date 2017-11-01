@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
 })
 export class SablaiAddEditComponent {
     title = "Ŋmaa Sabla Hei";
-    hide = false;
+    hide = true;
     personId;
     person = {
         name: "",

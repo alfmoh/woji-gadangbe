@@ -16,6 +16,9 @@
     color: red;
 }
 
+.btn-success {
+  opacity: 1;
+}
 
 @keyframes bounceInRight {
     from, 60%, 75%, 90%, to {
