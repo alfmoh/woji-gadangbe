@@ -1,0 +1,479 @@
+{
+  "sabla" : {
+    "-KxovceFTcL5ES4jye9H" : {
+      "gender" : "Nuu",
+      "name" : "Daku",
+      "sabla" : "Ampim"
+    },
+    "-KxowYmklMF2J4su7m6b" : {
+      "gender" : "Yoo",
+      "name" : "Odoley",
+      "sabla" : "Ojenno"
+    },
+    "-KxqL0yWbvjoTZRoc7yn" : {
+      "gender" : "Yoo",
+      "name" : "Tsotsoo",
+      "sabla" : "Aflasu-Manso"
+    },
+    "-KxqNufZeo8s0rZ6DUSV" : {
+      "gender" : "Yoo",
+      "name" : "Adjeley",
+      "sabla" : "Oshedu"
+    },
+    "-KxqXPU6K2Vfzsuu1WXH" : {
+      "gender" : "Yoo",
+      "name" : "Larmiley",
+      "sabla" : "Yoomle / Ajaaku / Amoaben "
+    },
+    "-Kxsg2h1P-xIjrlI1VYM" : {
+      "gender" : "Nuu",
+      "name" : "Oto",
+      "sabla" : "Oblafo"
+    },
+    "-KxsgFXf9pDBkLcYrsbQ" : {
+      "gender" : "Yoo",
+      "name" : "Abobi",
+      "sabla" : "Aye-ayee-fɛɛ"
+    },
+    "-KxsgRK-9seLdgZbJ8wp" : {
+      "gender" : "Yoo",
+      "name" : "Namua",
+      "sabla" : "Aye-ayee-fɛɛ"
+    },
+    "-KxsgZUig9IysW7zxDZp" : {
+      "gender" : "Yoo",
+      "name" : "Klemesu",
+      "sabla" : "Aabanu"
+    },
+    "-KxtzxiQyGRPtJabnqQi" : {
+      "gender" : "Yoo",
+      "name" : "Odarley",
+      "sabla" : "Koshie Aduma"
+    },
+    "-Kxu3eqss6wlsRXpgeSG" : {
+      "gender" : "Nuu",
+      "name" : "Akwei ",
+      "sabla" : "Daama / Odankwa"
+    },
+    "-KxuQ7yndeP410IjGIV3" : {
+      "gender" : "Yoo",
+      "name" : "Adukwei ",
+      "sabla" : "Sempe"
+    },
+    "-Kxuke8rKQ-KPYvOBkur" : {
+      "gender" : "Nuu",
+      "name" : "Nortey",
+      "sabla" : "Asamoah odi asempa (but if from Osu kinkanwe Owuo we could also be Okanshang)"
+    },
+    "-Kxul1L541nrlNYGo9bZ" : {
+      "gender" : "Yoo",
+      "name" : "Norley",
+      "sabla" : "Ako nyɛ"
+    },
+    "-Kxul9JdKxPPW-6MO6qI" : {
+      "gender" : "Nuu",
+      "name" : "Noi ",
+      "sabla" : "Anobaa Sasraku"
+    },
+    "-KxulEq-kl-hs-QmvrQI" : {
+      "gender" : "Yoo",
+      "name" : "Ahinee",
+      "sabla" : "Dede Ota"
+    },
+    "-KxulMUmpi8GJHh4YIye" : {
+      "gender" : "Nuu",
+      "name" : "Tackie",
+      "sabla" : "Abiasuma"
+    },
+    "-KxulW7L8kgc_9lkqzNv" : {
+      "gender" : "Nuu",
+      "name" : "Mensah",
+      "sabla" : "Abrampa"
+    },
+    "-KxulokmAVnajr0ZumJE" : {
+      "gender" : "Yoo",
+      "name" : "Akwele",
+      "sabla" : "Suma "
+    },
+    "-KxulwEFQx2JhECFeV7f" : {
+      "gender" : "Yoo",
+      "name" : "Akuɔkɔ ",
+      "sabla" : "Omasu"
+    },
+    "-Kxum-XjxjVma4qMoGPQ" : {
+      "gender" : "Yoo",
+      "name" : "Tawia",
+      "sabla" : "Apiajei "
+    },
+    "-Kxum2wXgmuEjMy6lG96" : {
+      "gender" : "Nuu",
+      "name" : "Ago",
+      "sabla" : "Nyankuma"
+    },
+    "-Kxum6Yu2nSaaEUXmSMW" : {
+      "gender" : "Nuu",
+      "name" : "Abam ",
+      "sabla" : "Hɛlɛ"
+    },
+    "-KxumGDD50KQBTIh8a6w" : {
+      "gender" : "Nuu",
+      "name" : "Oko",
+      "sabla" : "Onipa "
+    },
+    "-KxvHa7_kA4MF8_93Lpm" : {
+      "gender" : "Nuu",
+      "name" : "Armah ",
+      "sabla" : "Oshimpaŋ"
+    },
+    "-KxvHk5bDTV9h6DTPmk7" : {
+      "gender" : "Nuu",
+      "name" : "Adama",
+      "sabla" : "Asua "
+    },
+    "-KxvP5ng3DYh-3yrqKAQ" : {
+      "gender" : "Yoo",
+      "name" : "Amerley ",
+      "sabla" : "Kuele "
+    },
+    "-KxvVqGRPIJEm4plBq6J" : {
+      "gender" : "Nuu",
+      "name" : "Ashitei / Ashiteye ",
+      "sabla" : "Torwu (Tema Yorryi tso shishi)"
+    },
+    "-KxvWA8RNB6PIw6Tv0TP" : {
+      "gender" : "Nuu",
+      "name" : "Amarh ",
+      "sabla" : "Oshiapem / osheee akpe gbeyei /onsuro apem"
+    },
+    "-KxvWKx58PrIvVUu33iS" : {
+      "gender" : "Nuu",
+      "name" : "Ashite ",
+      "sabla" : "Akple (Tema)"
+    },
+    "-KxvWRLTcjsUVWRhyNfJ" : {
+      "gender" : "Yoo",
+      "name" : "Ashele ",
+      "sabla" : "Deedua"
+    },
+    "-KxvWYBaRozygeeCCYr_" : {
+      "gender" : "Yoo",
+      "name" : "Ashorkor ",
+      "sabla" : "Amarnyɛ"
+    },
+    "-KxvWhtepPoxOTcFYhH8" : {
+      "gender" : "Nuu",
+      "name" : "Larteh ",
+      "sabla" : "Oshi-oso (Tema)"
+    },
+    "-Kxve4LpPQqvq1uCgKm1" : {
+      "gender" : "Yoo",
+      "name" : "Atswɛi",
+      "sabla" : "Adoma"
+    },
+    "-KxveHWPvsnrMoDs3wnW" : {
+      "gender" : "Yoo",
+      "name" : "Anyema",
+      "sabla" : "Opesika / Asɛrɛ"
+    },
+    "-Kxw-5pOzwLKrYY1y99z" : {
+      "gender" : "Nuu",
+      "name" : "Kpakpo",
+      "sabla" : "Samoa"
+    },
+    "-Kxw_Qkr5TRG0XCwD9rR" : {
+      "gender" : "Nuu",
+      "name" : "Adokwei",
+      "sabla" : "Afadi / Kwei Danso"
+    },
+    "-KxxD0fPb9wzuieePB-7" : {
+      "gender" : "Nuu",
+      "name" : "Koney",
+      "sabla" : "Ajaadu blɔfonyo "
+    },
+    "-Ky-fpd3WX2TDrzH-S_C" : {
+      "gender" : "Nuu",
+      "name" : "Tetteh",
+      "sabla" : "Mpata"
+    },
+    "-Ky04QtyvXN3EHaNIuUu" : {
+      "gender" : "Yoo",
+      "name" : "Gjaah ",
+      "sabla" : "Dzidzama "
+    },
+    "-Ky0TU7r_kGjea5z51MF" : {
+      "gender" : "Nuu",
+      "name" : "Laryea",
+      "sabla" : "Ania"
+    },
+    "-Ky0TdXdFT48uvAUTLtG" : {
+      "gender" : "Nuu",
+      "name" : "Yemoh",
+      "sabla" : "Okumpa"
+    },
+    "-Ky0dtf7UKeZ-xFjM_Do" : {
+      "gender" : "Yoo",
+      "name" : "Kuorkor",
+      "sabla" : "Ajemaŋ-okufrobuɔ"
+    },
+    "-Ky0eNFP_xxBYGp67oXy" : {
+      "gender" : "Yoo",
+      "name" : "Kai",
+      "sabla" : "Adonkropa "
+    },
+    "-Ky0iPPRtXsmR9tX4Bas" : {
+      "gender" : "Yoo",
+      "name" : "Obiorkor",
+      "sabla" : "Asuokaija"
+    },
+    "-Ky0imBIbdHLb1a5y_re" : {
+      "gender" : "Nuu",
+      "name" : "Tei Mensah",
+      "sabla" : "Osa-Mensa Abrampa"
+    },
+    "-Ky0lWMnZipszYfoXSwA" : {
+      "gender" : "Yoo",
+      "name" : "Adjorkor",
+      "sabla" : "Boinyɛ"
+    },
+    "-Ky0m9SejSPXk55u2JDN" : {
+      "gender" : "Nuu",
+      "name" : "Sowatey",
+      "sabla" : "Akrobo"
+    },
+    "-Ky0mSGaVg9N93QnPSfq" : {
+      "gender" : "Nuu",
+      "name" : "Ako",
+      "sabla" : "Opai Odzamlaku Tofu"
+    },
+    "-Ky0n3fCYW3qCZs9jAk2" : {
+      "gender" : "Nuu",
+      "name" : "Afadi",
+      "sabla" : "Nsuro Ja"
+    },
+    "-Ky0nSOqpj1CgKKXPU16" : {
+      "gender" : "Yoo",
+      "name" : "Torshie",
+      "sabla" : "Aashie blɔfonyo"
+    },
+    "-Ky0nqpdZJuLOt8PIz0y" : {
+      "gender" : "Yoo",
+      "name" : "Dedei",
+      "sabla" : "Amobeye / Amobi"
+    },
+    "-Ky0o8NDQ-S0z1ZCxJ-A" : {
+      "gender" : "Yoo",
+      "name" : "Odey",
+      "sabla" : "Kwei Nyɛ"
+    },
+    "-Ky0oXn8CWWARQGjVkMm" : {
+      "gender" : "Yoo",
+      "name" : "Ahinei",
+      "sabla" : "Dede Otaa / Dede Ota Shika Nɔ"
+    },
+    "-Ky0pAcXY6eooU55rveQ" : {
+      "gender" : "Nuu",
+      "name" : "Ayikwei",
+      "sabla" : "Okuanfran Opɛkuaswɛ"
+    },
+    "-Ky0pQm1zsGdhSAIyouy" : {
+      "gender" : "Nuu",
+      "name" : "Annang",
+      "sabla" : "Patapaa"
+    },
+    "-Ky0peNTMd7vHaFdjQek" : {
+      "gender" : "Nuu",
+      "name" : "Okai",
+      "sabla" : "Odompete"
+    },
+    "-Ky0rKBipzCysh2eoFuM" : {
+      "gender" : "Nuu",
+      "name" : "Kotei",
+      "sabla" : " Atuo-bɔble"
+    },
+    "-Ky0s4BQVjasxLWdS7Sc" : {
+      "gender" : "Yoo",
+      "name" : "Shormey",
+      "sabla" : "Aklefi"
+    },
+    "-Ky0sOvh5HJbXDugeLtb" : {
+      "gender" : "Yoo",
+      "name" : "Adei",
+      "sabla" : "Maŋkɔbia"
+    },
+    "-Ky0sidXemSWIuLcFO3o" : {
+      "gender" : "Yoo",
+      "name" : "Dzama",
+      "sabla" : "Awo Ontonsa"
+    },
+    "-Ky0t2PUn_v78mpOplnu" : {
+      "gender" : "Yoo",
+      "name" : "Korley",
+      "sabla" : "Ajaklunme"
+    },
+    "-Ky0tAN6zQOn5Q1raLyw" : {
+      "gender" : "Nuu",
+      "name" : "Lante",
+      "sabla" : "Okunka"
+    },
+    "-Ky0tZKS36Y9F3nYeo33" : {
+      "gender" : "Yoo",
+      "name" : "Adaku",
+      "sabla" : "Okemle Jata"
+    },
+    "-Ky0tlB_mYHspwlDzhCs" : {
+      "gender" : "Yoo",
+      "name" : "Adoley",
+      "sabla" : "Mooley"
+    },
+    "-Ky0tyek8uiczDXHYCEQ" : {
+      "gender" : "Nuu",
+      "name" : "Larteley",
+      "sabla" : "Shika Oboney"
+    },
+    "-Ky0uApGzAeUlf4W4WEk" : {
+      "gender" : "Nuu",
+      "name" : "Amarkine",
+      "sabla" : "Archampong"
+    },
+    "-Ky0ulbmERVaw78ltfHD" : {
+      "gender" : "Nuu",
+      "name" : "Tettey",
+      "sabla" : "Tettey Saashi"
+    },
+    "-Ky0w5PRNEqKJ6SFlHPD" : {
+      "gender" : "Yoo",
+      "name" : "Otua",
+      "sabla" : "Shelenyɛ"
+    },
+    "-Ky0weBgsmdmUwFqAHWX" : {
+      "gender" : "Yoo",
+      "name" : "Korkoi",
+      "sabla" : "Asuokaija"
+    },
+    "-Ky0xmY0S1jrdkzNuu8U" : {
+      "gender" : "Yoo",
+      "name" : "Ayelesah",
+      "sabla" : "Osorngor"
+    },
+    "-Ky0xzDQc-NdS1klJkGF" : {
+      "gender" : "Yoo",
+      "name" : "Akushika",
+      "sabla" : "Oma-eduro"
+    },
+    "-Ky0yexZtauhYoZheevM" : {
+      "gender" : "Nuu",
+      "name" : "Nikoi",
+      "sabla" : "Akɔmpi"
+    },
+    "-Ky0yk6ugfOLcSGG_LrY" : {
+      "gender" : "Nuu",
+      "name" : "Amon",
+      "sabla" : "Otuabaa"
+    },
+    "-Ky0ys_7xWg7rDvjcasJ" : {
+      "gender" : "Nuu",
+      "name" : "Jaani",
+      "sabla" : "Okuanajo / Akɔsɔku"
+    },
+    "-Ky0z1pQTW6nz1bDTbR9" : {
+      "gender" : "Nuu",
+      "name" : "Afutu",
+      "sabla" : "Sablasu / Talepɔŋ"
+    },
+    "-Ky0z5YIpNJtazDd3slX" : {
+      "gender" : "Nuu",
+      "name" : "Amasa",
+      "sabla" : "Okumuafo"
+    },
+    "-Ky0zBR8QRZJaOh4AX4D" : {
+      "gender" : "Nuu",
+      "name" : "Boi",
+      "sabla" : "Oflaŋ"
+    },
+    "-Ky0zIruenpFXBfNIeGW" : {
+      "gender" : "Nuu",
+      "name" : "Amashi",
+      "sabla" : "Enyɛyie"
+    },
+    "-Ky0zOZGmQb8Z9hiCy7w" : {
+      "gender" : "Nuu",
+      "name" : "Kpei",
+      "sabla" : "Otumiafa"
+    },
+    "-Ky0zcPzDYjpEzKO3L_l" : {
+      "gender" : "Nuu",
+      "name" : "Kote",
+      "sabla" : "Abuma"
+    },
+    "-Ky0zwT9gs5414wfcKXt" : {
+      "gender" : "Yoo",
+      "name" : "Koteikor",
+      "sabla" : "Aflamia Kwajaŋ"
+    },
+    "-Ky1-3aKLfhfMpYSJdle" : {
+      "gender" : "Yoo",
+      "name" : "Koteikai",
+      "sabla" : "Adonkropa Braka-tubrafo"
+    },
+    "-Ky1-KXbYmcWtjHG0zJi" : {
+      "gender" : "Yoo",
+      "name" : "Koteitso",
+      "sabla" : "Aflasu-Manso"
+    },
+    "-Ky1-QRzq_2YDJAHON83" : {
+      "gender" : "Yoo",
+      "name" : "Dei",
+      "sabla" : "Oseble"
+    },
+    "-Ky1-XxgMzFJxBhmgSwm" : {
+      "gender" : "Yoo",
+      "name" : "Koikaile",
+      "sabla" : "Ojɛmɛ"
+    },
+    "-Ky1-iOFpl9APR_A91Za" : {
+      "gender" : "Yoo",
+      "name" : "Koi-Tsotso (Kotso)",
+      "sabla" : "Aflasu-Manso"
+    },
+    "-Ky1-ohBffXYYkIhJhAo" : {
+      "gender" : "Yoo",
+      "name" : "Oyile-Fofo",
+      "sabla" : "Pataku Oye"
+    },
+    "-Ky1-skcKzWbYrXYokEL" : {
+      "gender" : "Yoo",
+      "name" : "Kotei Fofo",
+      "sabla" : "Oye"
+    },
+    "-KyNOPNJtvvIQ45x4LaD" : {
+      "gender" : "Yoo",
+      "name" : "Adorkor",
+      "sabla" : "Jamfi"
+    },
+    "-KyNP6w9g8D5NF2zZGYT" : {
+      "gender" : "Nuu",
+      "name" : "Obodai",
+      "sabla" : "Atopra Atunam"
+    },
+    "-KySF7TB6cAh5QNiMG8F" : {
+      "gender" : "Nuu",
+      "name" : "Oblitey",
+      "sabla" : "Saashi"
+    },
+    "-KyhqR4TjlFwTDXczYTi" : {
+      "gender" : "Nuu",
+      "name" : "Adjei",
+      "sabla" : "Oboakɔ"
+    },
+    "-KyhqoC7KncK8wWF7kU7" : {
+      "gender" : "Nuu",
+      "name" : "Sowah",
+      "sabla" : "Boite-Aklɔtia"
+    },
+    "-Kz-WMc7wiYzxQUDSiol" : {
+      "gender" : "Nuu",
+      "name" : "Klotei",
+      "sabla" : "Asere"
+    }
+  }
+}
